@@ -6,7 +6,7 @@ export default class Navbar extends Component {
     render() {
         return (
            <nav className="navbar navbar-expand-sm bg-warning navbar-dark px-sm-5">
-            <Link to='/store'>
+            <Link to='/store/'>
                 <img  src={logo} alt="store" className="navbar-brand" />
 
             </Link>  
