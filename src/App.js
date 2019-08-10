@@ -13,7 +13,7 @@ function App() {
    <React.Fragment>
      <Navbar></Navbar>
      <Switch>
-     <Route exact path='/store' component={ProductList} ></Route>
+     <Route exact path='/store/' component={ProductList} ></Route>
     <Route path='/details' component={Details} ></Route>
     <Route path='/cart' component={Cart} ></Route>
     <Route  component={Default} ></Route>
